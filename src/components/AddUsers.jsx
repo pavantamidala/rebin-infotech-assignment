@@ -29,7 +29,7 @@ function AddUsers(props) {
 
 
                 <label htmlFor="phone">Phone:</label>
-                <input type="number" name="phone" id="phone" value={user.phone} onChange={(e) => setUser({ ...user, phone: e.target.value })} /><br /> <br />
+                <input type="text" name="phone" id="phone" value={user.phone} onChange={(e) => setUser({ ...user, phone: e.target.value })} /><br /> <br />
 
 
                 <label htmlFor="address">Address:</label>
